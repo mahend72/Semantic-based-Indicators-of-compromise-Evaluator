@@ -1,0 +1,17 @@
+{
+  "type": "indicator",
+  "spec_version": "2.1",
+  "id": "indicator--8d33dd84-a38a-4cd4-ae61-4b822f1b785c",
+  "created": "2024-01-05T13:16:06.648852Z",
+  "modified": "2024-01-05T13:16:06.648852Z",
+  "name": "Malicious File Indicator",
+  "pattern": "[file:hashes.md5 = 'd41d8cd98f00b204e9800998ecf8427e']",
+  "pattern_type": "stix",
+  "pattern_version": "2.1",
+  "valid_from": "2024-01-05T13:16:06.648852Z",
+  "labels": [
+    "malicious-indicator"
+  ],
+  "ioc_severity": "\"<tenseal.tensors.ckkstensor.CKKSTensor object at 0x77fcfc4a8a30>\"",
+  "risk_level": "\"<tenseal.tensors.ckkstensor.CKKSTensor object at 0x77fcfc4a8a60>\""
+}
