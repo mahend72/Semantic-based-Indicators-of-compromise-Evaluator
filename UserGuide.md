@@ -10,7 +10,9 @@
 - [Homomorphic Encryption](https://github.com/OpenMined/TenSEAL)
   ```bash
   pip install tenseal
-- [OTXv2] (https://pypi.org/project/OTXv2/)
+
+- [OTXv2](https://pypi.org/project/OTXv2/)
+
   OTXv2 is an API client library for accessing the Open Threat Exchange, a collaborative platform that allows cybersecurity professionals to share and access threat intelligence data.
   ```bash
   pip install OTXv2
