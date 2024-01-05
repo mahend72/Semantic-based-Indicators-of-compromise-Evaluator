@@ -47,25 +47,25 @@ Get the resource file from GitHub by cloning the project:
   ```bash
   git clone https://github.com/mahend72/Semantic-based-Indicators-of-compromise-Evaluator.git
 
-- step 2: IOC Collection
+- Step 2: IOC Collection
 Gather Indicators of Compromise (IOCs) from various sources such as threat intelligence feeds, logs, or security incidents.
 
-- step 3: Embedding Generation (Feature Matrix)
+- Step 3: Embedding Generation (Feature Matrix)
 Transform IOCs into numerical representations using embedding techniques, creating a feature matrix.
 
--step 4: Compute Adjacency Matrix
+- Step 4: Compute Adjacency Matrix
 Based on the nature of your data, establish connections or relationships between data points and create an adjacency matrix.
 
--step 5: Generate Relation
+- Step 5: Generate Relation
 Define and create relations between entities or features in the dataset, representing the connections within the data.
 
--step 6: Compute Meta-Path and Meta-Graph
+- Step 6: Compute Meta-Path and Meta-Graph
 Define meta-paths, which are sequences of relations, and create a meta-graph to capture higher-level relationships in the data.
 
--Step 7: Compute Meta-Path and Meta-Graph Instance Similarity Score
+- Step 7: Compute Meta-Path and Meta-Graph Instance Similarity Score
 Measure the similarity between instances in the meta-graph based on defined meta-paths, quantifying the relatedness of different entities.
 
-Step 8: Compute GCN (Graph Convolutional Network)
+- Step 8: Compute GCN (Graph Convolutional Network)
 Apply Graph Convolutional Network techniques to learn and propagate information across the graph structure, capturing complex relationships and enhancing feature representations.
 
 
