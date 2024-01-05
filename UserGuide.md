@@ -7,9 +7,6 @@
 #### Software
 
 - [Python](https://www.python.org/downloads/) (required)
-- [Homomorphic Encryption](https://github.com/OpenMined/TenSEAL)
-  ```bash
-  pip install tenseal
 
 - [OTXv2](https://pypi.org/project/OTXv2/)
 
@@ -17,14 +14,24 @@
   ```bash
   pip install OTXv2
 
+- [tensorflow](https://github.com/tensorflow/tensorflow)
 
-pip install tensorflow
-TensorFlow is an open-source machine learning library developed by the Google Brain team. It is widely used for building and training machine learning models, particularly deep learning models.
+  TensorFlow is an open-source machine learning library developed by the Google Brain team. It is widely used for building and training machine learning models, particularly deep learning models.  
+  ```bash 
+  pip install tensorflow
 
-pip install tensorflow_hub
-ensorFlow Hub is a library and platform for reusable machine learning modules. It allows the sharing and reuse of pre-trained models and model components.
 
-pip install sentence-transformers
+- [tensorflow_hub](https://github.com/tensorflow/hub)
+
+  TensorFlow Hub is a library and platform for reusable machine learning modules. It allows the sharing and reuse of pre-trained models and model components.
+  ```bash
+  pip install tensorflow_hub
+
+- [sentence-tansformers](https://github.com/UKPLab/sentence-transformers/tree/master/sentence_transformers)
+
+  Sentence Transformers is a library for generating embeddings (vector representations) of sentences. It uses pre-trained models to encode sentences into fixed-size vectors.
+  ```bash
+  pip install sentence-transformers
 
 - SQLite Library
   ```bash
@@ -38,7 +45,7 @@ pip install sentence-transformers
 Get the resource file from GitHub by cloning the project:
 
   ```bash
-  git clone https://github.com/mahend72/Secure-Loan-Verififaction-and-Approval-system.git
+  git clone https://github.com/mahend72/Semantic-based-Indicators-of-compromise-Evaluator.git
 
 
 - Step 2: Generate Keys
