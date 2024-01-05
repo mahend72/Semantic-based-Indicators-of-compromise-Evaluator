@@ -1,6 +1,4 @@
-# Semantic-based-Indicators-of-compromise-Evaluator
-
-T# IOC Evaluator for Additive Manufacturing (AM) Supply Chain
+# Semantic based IOC Evaluator for Additive Manufacturing (AM) Supply Chain
 
 ## Overview
 
