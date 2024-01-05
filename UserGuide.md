@@ -47,27 +47,26 @@ Get the resource file from GitHub by cloning the project:
   ```bash
   git clone https://github.com/mahend72/Semantic-based-Indicators-of-compromise-Evaluator.git
 
+- step 2: IOC Collection
+Gather Indicators of Compromise (IOCs) from various sources such as threat intelligence feeds, logs, or security incidents.
 
-- Step 2: Generate Keys
-Run Key_generation.py to obtain public and private keys for each entity in the system.
+- step 3: Embedding Generation (Feature Matrix)
+Transform IOCs into numerical representations using embedding techniques, creating a feature matrix.
 
-- Step 3: Customer Registration
-Run Registration.py for customer registration and obtaining a unique identification (UID).
+-step 4: Compute Adjacency Matrix
+Based on the nature of your data, establish connections or relationships between data points and create an adjacency matrix.
 
-- Step 4: Open Bank Account
-Run Account_open.py to open an account in a Bank.
+-step 5: Generate Relation
+Define and create relations between entities or features in the dataset, representing the connections within the data.
 
-- Step 5: Apply for a Loan
-Run Apply_loan.py to apply for a loan.
+-step 6: Compute Meta-Path and Meta-Graph
+Define meta-paths, which are sequences of relations, and create a meta-graph to capture higher-level relationships in the data.
 
-- Step 6: Sign In
-For a new customer, run Signin.py to apply for a loan.
-For an existing user, run login.py to apply for a loan.
+-Step 7: Compute Meta-Path and Meta-Graph Instance Similarity Score
+Measure the similarity between instances in the meta-graph based on defined meta-paths, quantifying the relatedness of different entities.
 
-#### Additional Steps
-- Run Display.py to display existing customers in the database.
-- Run Remove.py to remove any customer from the database.
-- Run Enter_details.py to enter information related to customers relevant for a loan application.
-- Run Loan_approval.py to check a customer's eligibility.
-- Run Approval_decision.py to verify and make a decision for loan approval.
-- Run Loan_details_generation.py to consolidate and generate the loan details.
+Step 8: Compute GCN (Graph Convolutional Network)
+Apply Graph Convolutional Network techniques to learn and propagate information across the graph structure, capturing complex relationships and enhancing feature representations.
+
+
+
