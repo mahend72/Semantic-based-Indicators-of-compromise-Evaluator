@@ -1,0 +1,11 @@
+pip install OTXv2
+OTXv2 is an API client library for accessing the Open Threat Exchange, a collaborative platform that allows cybersecurity professionals to share and access threat intelligence data.
+
+pip install tensorflow
+TensorFlow is an open-source machine learning library developed by the Google Brain team. It is widely used for building and training machine learning models, particularly deep learning models.
+
+pip install tensorflow_hub
+ensorFlow Hub is a library and platform for reusable machine learning modules. It allows the sharing and reuse of pre-trained models and model components.
+
+pip install sentence-transformers
+Sentence Transformers is a library for generating embeddings (vector representations) of sentences. It uses pre-trained models to encode sentences into fixed-size vectors.
